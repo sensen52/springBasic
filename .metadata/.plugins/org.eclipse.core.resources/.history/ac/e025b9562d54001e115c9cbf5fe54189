@@ -1,0 +1,37 @@
+package com.example.ex00.dependency;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.example.ex00.dependency.qualifier.Computer;
+import com.example.ex00.dependency.qualifier.Outback;
+import com.example.ex00.dependency.qualifier.Restaurant;
+import com.example.ex00.dependency.qualifier.Vips;
+
+import lombok.extern.log4j.Log4j;
+
+public class QualifierTests {
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
