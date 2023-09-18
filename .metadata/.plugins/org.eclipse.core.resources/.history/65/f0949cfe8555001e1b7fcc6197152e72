@@ -1,0 +1,6 @@
+package com.example.ex00.dependency;
+
+@Runwith(springJUnit4ClassRunner.class)
+public class DependencyChiefTests {
+
+}
