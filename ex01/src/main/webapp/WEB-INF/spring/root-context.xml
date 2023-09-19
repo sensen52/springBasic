@@ -16,10 +16,14 @@
 	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
 		<constructor-arg ref="hikariConfig"/>
 	</bean>
+	<!-- 여기에 히카리 주입 -->
+	
 	
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>
+	<!-- 여기에 데이터 소스 주입 -->
+	
 	
 	<mybatis-spring:scan base-package="com.example.ex01.mapper"/>
 </beans>

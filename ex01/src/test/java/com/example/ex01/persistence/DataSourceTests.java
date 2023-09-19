@@ -32,7 +32,7 @@ public class DataSourceTests {
 		
 		try
 		(
-				SqlSession sqlSession = sqlSessionFactory.openSession(true);
+				SqlSession sqlSession = sqlSessionFactory.openSession(true); //autocommit
 				Connection connection = sqlSession.getConnection();
 		) {
 			log.info(sqlSession);
