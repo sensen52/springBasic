@@ -60,3 +60,124 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.119.202309041200]
 2023-09-19 09:32:01.088 - Open [https://dbeaver.io/product/version.xml]
 2023-09-19 10:01:13.186 - System suspend detected! Reinitialize all remote connections.
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.104.202309041200]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.100.202309041200]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.198.202309041200]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.6.202309041200]
+2023-09-19 12:12:56.342 - Auth model 'native' was replaced by 'oracle_native'
+2023-09-19 12:12:56.365 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-09-19 12:13:14.958 - Connect with 'jdbc:oracle:thin:@//localhost:1521/XE' (oracle_thin-18aab6d80b1-2e75b357fe6ef90c)
+2023-09-19 12:13:14.989 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/XE; Main; 0)
+2023-09-19 12:13:15.406 - Connected (oracle_thin-18aab6d80b1-2e75b357fe6ef90c, Oracle JDBC driver [11.2.0.2.0])
+2023-09-19 12:13:15.461 - Execution context closed (jdbc:oracle:thin:@//localhost:1521/XE, 0)
+2023-09-19 12:13:15.461 - Disconnected (oracle_thin-18aab6d80b1-2e75b357fe6ef90c)
+2023-09-19 12:13:40.691 - Connect with 'jdbc:oracle:thin:@//localhost:1521/XE' (oracle_thin-18aab6de53b-72d4dd7887fdabef)
+2023-09-19 12:13:40.692 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/XE; Main; 1)
+2023-09-19 12:13:40.730 - Connected (oracle_thin-18aab6de53b-72d4dd7887fdabef, Oracle JDBC driver [11.2.0.2.0])
+2023-09-19 12:13:40.782 - Execution context closed (jdbc:oracle:thin:@//localhost:1521/XE, 1)
+2023-09-19 12:13:40.782 - Disconnected (oracle_thin-18aab6de53b-72d4dd7887fdabef)
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.89.202309041200]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.0.v20230517-1315]
+> Start 콘솔 [org.eclipse.ui.console 3.12.0.v20230317-0802]
+Warning: NLS unused message: InputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+Warning: NLS unused message: OutputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.0.v20230508-1538]
+> Start Equinox Provisioning Metadata [org.eclipse.equinox.p2.metadata 2.7.0.v20230403-0851]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.8.202309041200]
+2023-09-19 12:16:41.532 - No active connection
+2023-09-19 12:16:47.446 - No active connection
+2023-09-19 12:16:55.368 - Connect with 'localhost' (oracle_thin-18aa6475c28-12eab131a575205)
+2023-09-19 12:16:55.369 - Execution context opened (localhost; Main; 2)
+2023-09-19 12:16:55.408 - Execution context opened (localhost; Metadata; 3)
+2023-09-19 12:16:55.447 - Connected (oracle_thin-18aa6475c28-12eab131a575205, Oracle JDBC driver [11.2.0.2.0])
+2023-09-19 12:17:01.570 - No active connection
+2023-09-19 12:17:08.691 - No active connection
+2023-09-19 12:17:12.808 - No active connection
+2023-09-19 12:17:24.272 - Execution context closed (localhost, 2)
+2023-09-19 12:17:24.323 - Execution context closed (localhost, 3)
+2023-09-19 12:17:24.323 - Disconnected (oracle_thin-18aa6475c28-12eab131a575205)
+2023-09-19 12:17:42.994 - Auth model 'native' was replaced by 'oracle_native'
+2023-09-19 12:17:43.003 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-09-19 12:17:54.042 - Connect with 'jdbc:oracle:thin:@//localhost:1521/XE' (oracle_thin-18aab71c2de-40c1f85ba8714269)
+2023-09-19 12:17:54.042 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/XE; Main; 4)
+2023-09-19 12:17:54.080 - Connected (oracle_thin-18aab71c2de-40c1f85ba8714269, Oracle JDBC driver [11.2.0.2.0])
+2023-09-19 12:17:54.132 - Execution context closed (jdbc:oracle:thin:@//localhost:1521/XE, 4)
+2023-09-19 12:17:54.132 - Disconnected (oracle_thin-18aab71c2de-40c1f85ba8714269)
+2023-09-19 12:18:20.916 - No active connection
+2023-09-19 12:18:23.603 - No active connection
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.91.202309041200]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.91.202309041200]
+2023-09-19 12:19:08.580 - Connect with 'localhost' (oracle_thin-18aab7197a0-2f8e3052cbbe382e)
+2023-09-19 12:19:08.581 - Execution context opened (localhost; Main; 5)
+2023-09-19 12:19:08.610 - Execution context opened (localhost; Metadata; 6)
+2023-09-19 12:19:08.647 - Connected (oracle_thin-18aab7197a0-2f8e3052cbbe382e, Oracle JDBC driver [11.2.0.2.0])
+2023-09-19 12:19:08.657 - Execution context opened (localhost; SQLEditor <Script.sql>; 7)
+2023-09-19 12:19:14.208 - SQL Error [911] [22019]: ORA-00911: invalid character
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: invalid character
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3940)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5142)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-09-19 12:19:24.823 - SQL Error [911] [22019]: ORA-00911: invalid character
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: invalid character
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3940)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5142)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-09-19 12:37:05.040 - System suspend detected! Reinitialize all remote connections.
