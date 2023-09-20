@@ -33,18 +33,16 @@
 	</logger>
 
 
-	<logger name=jdbc.audit>
-	<lavel vlaue="warn" />
+	<logger name="jdbc.audit">
+		<level value="warn" />
 	</logger>
 	
-	
-	<logger name=jdbc.resultset>
-	<lavel vlaue="warn" />
+	<logger name="jdbc.resultset">
+		<level value="warn" />
 	</logger>
 	
-	
-	<logger name=jdbc.connection>
-	<lavel vlaue="warn" />
+	<logger name="jdbc.connection">
+		<level value="warn" />
 	</logger>
 
 	<!-- Root Logger -->

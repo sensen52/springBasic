@@ -181,3 +181,4 @@ Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 12 more
 2023-09-19 12:37:05.040 - System suspend detected! Reinitialize all remote connections.
+2023-09-19 14:47:56.708 - System suspend detected! Reinitialize all remote connections.
