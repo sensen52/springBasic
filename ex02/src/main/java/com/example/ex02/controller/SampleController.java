@@ -5,12 +5,15 @@ import java.util.ArrayList;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.ex02.domain.vo.InfoDTO;
+import com.example.ex02.domain.vo.StudentVO;
 
 import lombok.extern.log4j.Log4j;
 
@@ -55,7 +58,48 @@ public class SampleController {
 		
 		return "ex03";
 		
-		
 	}
 	
+	@GetMapping("/ex04")
+	public String ex04(@ModelAttribute("dto") InfoDTO infoDTO) {
+		log.info("======================");
+		log.info("Ex04........");
+		log.info(infoDTO.toString());
+		log.info("======================");
+		
+		return "ex04";
+	}
+	
+	@GetMapping("/ex05")
+	public void ex05(InfoDTO infoDTO,@ModelAttribute("gender") String gender) {
+		
+		log.info("Ex05.......");
+		log.info(infoDTO.toString());
+		log.info("gender"+gender);
+	}
+	//모델 객체는 파라미터로 request 객체를 받는다
+	//따라서 여러개의 데이터를 화면에 전달할때 
+	//addAttribute(key,value)를 사용한다.
+	//화면에서는 model에 설정한 key로 value를 사용할 수 있다.
+	
+	@GetMapping("/ex06")
+	public String ex06(InfoDTO infoDTO,String gender, Model model) {
+		log.info("Ex06.......");
+		log.info(infoDTO.toString());
+		log.info("gender"+gender);
+		
+		model.addAttribute("dto",infoDTO);
+		model.addAttribute("gender", gender);
+		
+		return "ex/ex06";
+	}
+	
+	@GetMapping("/ex07")
+	public String ex07(StudentVO studentVO) {
+		log.info("ex07...");
+		log.info(studentVO.toString());
+		
+		return "ex/ex07";
+	}
+
 }
