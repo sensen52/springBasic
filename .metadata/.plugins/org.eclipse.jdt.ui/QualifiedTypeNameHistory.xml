@@ -12,4 +12,5 @@
     <fullyQualifiedTypeName name="com.example.ex02.domain.vo.InfoDTO"/>
     <fullyQualifiedTypeName name="com.example.ex02.domain.vo.LoginInfo"/>
     <fullyQualifiedTypeName name="com.example.ex02.domain.vo.LoginDTO"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
 </qualifiedTypeNameHistroy>
