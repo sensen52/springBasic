@@ -7,10 +7,8 @@ import lombok.Data;
 @Component
 @Data
 public class StudentVO {
-
 	private int num;
 	private int kor;
 	private int eng;
 	private int math;
-	
 }
